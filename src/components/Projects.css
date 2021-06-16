@@ -1,7 +1,19 @@
 .Projects {
   color: azure;
+  padding: 50px;
+  margin: auto 0;
 }
 .Projects li {
   font-size: 20px;
   list-style: none;
+}
+
+.Projects img {
+  height: 100px;
+  width: 100px;
+}
+.Projects h3 {
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  text-decoration: underline;
 }

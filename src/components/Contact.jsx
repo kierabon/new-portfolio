@@ -8,7 +8,7 @@ export default function Contact(){
         <div className="Contact">
             <div className="container">
             <h1>Email me</h1>
-            <h6>kierarob11@gmail.com</h6>
+            <address>kierarob11@gmail.com</address>
         </div>
 </div>    );
 }
