@@ -4,7 +4,7 @@ import calculator from "./calc.png";
 import weatherApp from "./weatherApp.png";
 import wAppVanilla from "./wappVanilla.png";
 import dictionary from "./dictionary.png";
-import marioVanilla from "./mario.png";
+
 
 export default function Projects(){
     return(
@@ -44,12 +44,7 @@ export default function Projects(){
                     <img src={dictionary} className="img-fluid" alt="calculator" />
                     </a> </span>
                 </li> </div>
-                <div className="col-2">
-                <li className="mario-vanilla">Mario
-                   <span> <a href="https://inspiring-goldberg-32b1af.netlify.app" target="_blank" rel="noreferrer">
-                    <img src={marioVanilla} className="img-fluid" alt="calculator" />
-                    </a> </span>
-                </li></div>
+                
                 </div>
             </ul>
         </div>
