@@ -6,3 +6,9 @@
 .Home h1 {
   font-size: 60px;
 }
+.Home h1 em {
+  font-weight: bolder;
+}
+.Home p {
+  font-size: 20px;
+}
