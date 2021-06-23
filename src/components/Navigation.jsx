@@ -8,7 +8,7 @@ function Navigation(props){
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            React Multi-Page Website
+            Kiera M. Bonaparte 
           </Link>
 
           <div>
