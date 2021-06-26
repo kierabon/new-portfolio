@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
 import calculator from "./calc.png";
 import weatherApp from "./weatherApp.png";
 import wAppVanilla from "./wappVanilla.png";
@@ -16,7 +17,7 @@ export default function Projects(){
                     <h3>Projects</h3>
                 
            <CardDeck style={{display: 'flex'}}>
-
+<Row className='row-cols-1 row-cols-md-2 g-4'>
   <Card style={{ width: '18rem'}} >
         <a href="https://goofy-goldberg-e66c09.netlify.app/" target="_blank" rel="noreferrer" className="link">
     <Card.Img variant="top" src={calculator} size="100px160" />
@@ -40,7 +41,9 @@ export default function Projects(){
     </Card.Body>
     </a>
   </Card>
+</Row>
 
+<Row className='row-cols-1 row-cols-md-2 g-4'>
   <Card style={{ width: '18rem' }}>
        <a href="https://ecstatic-mirzakhani-8a5e03.netlify.app" target="_blank" rel="noreferrer" className="link">
     <Card.Img variant="top" src={wAppVanilla} size='100px160' />
@@ -65,6 +68,7 @@ export default function Projects(){
     </Card.Body>
     </a> 
   </Card>
+  </Row>
 </CardDeck>
            
         </div>

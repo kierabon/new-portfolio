@@ -1,6 +1,5 @@
-.Projects li {
-  font-size: 20px;
-  list-style: none;
+.Projects {
+  margin-left: 150px;
 }
 
 .Projects h3 {
