@@ -17,7 +17,7 @@ export default function Projects(){
             
                     <h3>Projects</h3>
                 
-           <CardColumns className="p-3 cards">
+           <CardColumns className="cards">
 <Row >
 <Col className="gx-4 gy-4">
   <Card style={{ width: '15rem'}}  >

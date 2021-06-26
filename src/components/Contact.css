@@ -2,3 +2,9 @@
   color: azure;
   padding-top: 150px;
 }
+.linkedin {
+  color: cornsilk;
+}
+.link a:hover {
+  color: blue;
+}
