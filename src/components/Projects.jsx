@@ -1,8 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import CardDeck from 'react-bootstrap/CardDeck';
+import CardColumns from 'react-bootstrap/CardColumns';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import calculator from "./calc.png";
 import weatherApp from "./weatherApp.png";
 import wAppVanilla from "./wappVanilla.png";
@@ -16,9 +17,10 @@ export default function Projects(){
             
                     <h3>Projects</h3>
                 
-           <CardDeck style={{display: 'flex'}}>
-<Row className='row-cols-1 row-cols-md-2 g-4'>
-  <Card style={{ width: '18rem'}} >
+           <CardColumns className="p-3 cards">
+<Row >
+<Col className="gx-4 gy-4">
+  <Card style={{ width: '15rem'}}  >
         <a href="https://goofy-goldberg-e66c09.netlify.app/" target="_blank" rel="noreferrer" className="link">
     <Card.Img variant="top" src={calculator} size="100px160" />
     <Card.Body>
@@ -29,8 +31,9 @@ export default function Projects(){
     </Card.Body>
     </a>
   </Card>
-
-  <Card style={{ width: '18rem' }}>
+</Col>
+<Col  className="gx-4 gy-4">
+  <Card style={{ width: '15rem' }}>
       <a href="https://vigorous-euclid-17656d.netlify.app" target="_blank" rel="noreferrer" className="link">
     <Card.Img variant="top" src={weatherApp} size="100px160"/>
     <Card.Body>
@@ -41,10 +44,12 @@ export default function Projects(){
     </Card.Body>
     </a>
   </Card>
-</Row>
+</Col>
 
-<Row className='row-cols-1 row-cols-md-2 g-4'>
-  <Card style={{ width: '18rem' }}>
+
+
+ <Col  className="gx-4 gy-4">
+  <Card style={{ width: '15rem' }}>
        <a href="https://ecstatic-mirzakhani-8a5e03.netlify.app" target="_blank" rel="noreferrer" className="link">
     <Card.Img variant="top" src={wAppVanilla} size='100px160' />
     <Card.Body>
@@ -55,8 +60,9 @@ export default function Projects(){
     </Card.Body>
     </a> 
   </Card>
-
-  <Card style={{ width: '18rem' }}>
+</Col>
+<Col  className="gx-4 gy-4">
+  <Card style={{ width: '15rem' }}>
       <a href="https://sharp-noether-12af75.netlify.app" target="_blank" rel="noreferrer" className="link">
                     
     <Card.Img variant="top" src={dictionary} size="100px160" />
@@ -67,9 +73,10 @@ export default function Projects(){
       </Card.Text>
     </Card.Body>
     </a> 
-  </Card>
+  </Card> 
+  </Col>
   </Row>
-</CardDeck>
+</CardColumns>
            
         </div>
         </div>
