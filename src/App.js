@@ -6,19 +6,18 @@ import { Navigation, Footer, Home, Projects, Contact } from "./components";
 function App() {
   return (
     <div className="App">
-      
+       <div className="container home">
          <Router>
         <Navigation />
-        <div className="container home">
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/projects" exact component={() => <Projects />} />
           <Route path="/contact" exact component={() => <Contact />} />
         </Switch>
-        </div>
+       
         <Footer />
       </Router>
-        
+        </div> 
     </div>
   );
 }
