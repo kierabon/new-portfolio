@@ -11,8 +11,7 @@
       rgba(0, 0, 255, 0.027)
     ),
     url(./bkgd-img.jpg);
-  background-size: 1300px, 1100px;
-  margin-bottom: 500px;
+  background-size: 1300px, 1300px;
   padding-bottom: 500px;
   opacity: 80%;
 }
