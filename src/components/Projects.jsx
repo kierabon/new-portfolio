@@ -2,7 +2,6 @@ import React from "react";
 import "./Projects.css";
 import CardColumns from 'react-bootstrap/CardColumns';
 import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import calculator from "./calc.png";
 import weatherApp from "./weatherApp.png";
@@ -17,8 +16,8 @@ export default function Projects(){
             
                     <h3>Projects</h3>
                 
-           <CardColumns className="cards">
-<Row >
+<CardColumns className="cards">
+
 <Col className="gx-4 gy-4">
   <Card style={{ width: '15rem'}}  >
         <a href="https://goofy-goldberg-e66c09.netlify.app/" target="_blank" rel="noreferrer" className="link">
@@ -46,8 +45,6 @@ export default function Projects(){
   </Card>
 </Col>
 
-
-
  <Col  className="gx-4 gy-4">
   <Card style={{ width: '15rem' }}>
        <a href="https://ecstatic-mirzakhani-8a5e03.netlify.app" target="_blank" rel="noreferrer" className="link">
@@ -61,11 +58,10 @@ export default function Projects(){
     </a> 
   </Card>
 </Col>
-<Col  className="gx-4 gy-4">
+<Col className="gx-4 gy-4">
   <Card style={{ width: '15rem' }}>
-      <a href="https://sharp-noether-12af75.netlify.app" target="_blank" rel="noreferrer" className="link">
-                    
-    <Card.Img variant="top" src={dictionary} size="100px160" />
+      <a href="https://sharp-noether-12af75.netlify.app" target="_blank" rel="noreferrer" className="link">              
+    <Card.Img variant="top" src={dictionary} size="100px120" />
     <Card.Body>
       <Card.Title>Dictionary</Card.Title>
       <Card.Text style={{'font-size': '14px'}}>
@@ -75,7 +71,7 @@ export default function Projects(){
     </a> 
   </Card> 
   </Col>
-  </Row>
+  
 </CardColumns>
            
         </div>
