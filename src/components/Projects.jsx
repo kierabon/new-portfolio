@@ -7,7 +7,7 @@ import calculator from "./calc.png";
 import weatherApp from "./weatherApp.png";
 import wAppVanilla from "./wappVanilla.png";
 import dictionary from "./dictionary.png";
-
+import shampoo from "./shampoo.png";
 
 export default function Projects(){
     return(
@@ -71,7 +71,19 @@ export default function Projects(){
     </a> 
   </Card> 
   </Col>
-  
+  <Col className="gx-4 gy-4">
+  <Card style={{ width: '15rem' }}>
+      <a href="https://627e99467e6471062e31fd4c--spiffy-marigold-8b3b7d.netlify.app/" target="_blank" rel="noreferrer" className="link">              
+    <Card.Img variant="top" src={shampoo} size="100px120" />
+    <Card.Body>
+      <Card.Title>Shampoo Company</Card.Title>
+      <Card.Text style={{'font-size': '14px'}}>
+        This is a mock shampoo company's landing page.
+      </Card.Text>
+    </Card.Body>
+    </a> 
+  </Card> 
+  </Col>
 </CardColumns>
            
         </div>
